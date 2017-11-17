@@ -33,6 +33,14 @@
         android:id="@+id/textView15"
         android:layout_width="371dp"
         android:layout_height="38dp"
+        android:text="Notes:"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="371dp"
+        android:layout_height="38dp"
         android:text="Level:"
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="104dp" />
