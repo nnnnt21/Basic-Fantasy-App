@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -10,7 +10,9 @@
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Sex"
-        tools:layout_editor_absoluteX="199dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView17"
         tools:layout_editor_absoluteY="55dp" />
 
     <TextView
@@ -18,7 +20,9 @@
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Age"
-        tools:layout_editor_absoluteX="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="55dp" />
 
     <TextView
@@ -39,10 +43,12 @@
 
     <TextView
         android:id="@+id/textView26"
-        android:layout_width="371dp"
+        android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Level:"
-        tools:layout_editor_absoluteX="7dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="104dp" />
 
     <TextView
@@ -50,7 +56,9 @@
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text=" xp"
-        tools:layout_editor_absoluteX="46dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView26"
         tools:layout_editor_absoluteY="104dp" />
 
     <TextView
