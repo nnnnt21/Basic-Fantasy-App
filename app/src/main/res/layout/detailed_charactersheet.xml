@@ -5,4 +5,51 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:text="Sex"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:text="Age"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:text="Class"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="371dp"
+        android:layout_height="38dp"
+        android:text="Level:"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:text=" xp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:text="Race"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="6dp" />
 </android.support.constraint.ConstraintLayout>

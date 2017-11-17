@@ -10,6 +10,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="372dp" />
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <ListView
+        android:layout_width="368dp"
+        android:layout_height="402dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="376dp"
+        android:layout_height="45dp"
+        android:text="Weapons"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="6dp" />
 </android.support.constraint.ConstraintLayout>
