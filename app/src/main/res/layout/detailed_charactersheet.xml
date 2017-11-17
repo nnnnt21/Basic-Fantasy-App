@@ -32,7 +32,7 @@
     <TextView
         android:id="@+id/textView15"
         android:layout_width="371dp"
-        android:layout_height="38dp"
+        android:layout_height="350dp"
         android:text="Notes:"
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="153dp" />
