@@ -6,28 +6,28 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/Char_Sex"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Sex"
-        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintBottom_toTopOf="@+id/Char_Experience"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView17"
-        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+        app:layout_constraintStart_toEndOf="@+id/Char_Age"
+        app:layout_constraintTop_toBottomOf="@+id/Char_Class" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/Char_Age"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Age"
-        app:layout_constraintEnd_toStartOf="@+id/textView14"
+        app:layout_constraintEnd_toStartOf="@+id/Char_Sex"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="55dp" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/Char_Class"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Class"
@@ -35,7 +35,7 @@
         tools:layout_editor_absoluteY="6dp" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/Notes"
         android:layout_width="371dp"
         android:layout_height="350dp"
         android:text="Notes:"
@@ -43,37 +43,37 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+        app:layout_constraintTop_toBottomOf="@+id/Char_Level" />
 
     <TextView
-        android:id="@+id/textView26"
+        android:id="@+id/Char_Level"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Level:"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
-        app:layout_constraintEnd_toStartOf="@+id/textView18"
+        app:layout_constraintBottom_toTopOf="@+id/Notes"
+        app:layout_constraintEnd_toStartOf="@+id/Char_Experience"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+        app:layout_constraintTop_toBottomOf="@+id/Char_Age" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/Char_Experience"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text=" xp"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintBottom_toTopOf="@+id/Notes"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/textView26"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintStart_toEndOf="@+id/Char_Level"
+        app:layout_constraintTop_toBottomOf="@+id/Char_Sex" />
 
     <TextView
-        android:id="@+id/textView25"
+        android:id="@+id/Char_Race"
         android:layout_width="180dp"
         android:layout_height="38dp"
         android:text="Race"
-        app:layout_constraintBottom_toTopOf="@+id/textView17"
-        app:layout_constraintEnd_toStartOf="@+id/textView16"
+        app:layout_constraintBottom_toTopOf="@+id/Char_Age"
+        app:layout_constraintEnd_toStartOf="@+id/Char_Class"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

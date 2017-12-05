@@ -5,23 +5,23 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Abilities_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add Ability"
-        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintBottom_toTopOf="@+id/Abilities_List"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/Abilities_List"
         android:layout_width="368dp"
         android:layout_height="442dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/Abilities_Button" />
 </android.support.constraint.ConstraintLayout>

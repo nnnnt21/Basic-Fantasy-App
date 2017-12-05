@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/Constitution"
         android:layout_width="164dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.419" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/Dexterity"
         android:layout_width="164dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
@@ -40,7 +40,7 @@
         app:layout_constraintVertical_bias="0.248" />
 
     <TextView
-        android:id="@+id/textView23"
+        android:id="@+id/Strength"
         android:layout_width="173dp"
         android:layout_height="57dp"
         android:layout_marginBottom="8dp"
@@ -48,7 +48,24 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:contentDescription="Background for Text"
-        android:text="Inteligence"
+        android:text="Strength"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/intelligence"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="Background for Text"
+        android:text="Intelligence"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
@@ -57,7 +74,7 @@
         app:layout_constraintVertical_bias="0.018" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/Charisma"
         android:layout_width="164dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
@@ -74,7 +91,7 @@
         app:layout_constraintVertical_bias="0.419" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/Wisdom"
         android:layout_width="164dp"
         android:layout_height="56dp"
         android:layout_marginBottom="8dp"
@@ -90,33 +107,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.248" />
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="164dp"
-        android:layout_height="56dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:contentDescription="Background for Text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="158dp"
-        android:layout_height="51dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Strength"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
 </android.support.constraint.ConstraintLayout>
