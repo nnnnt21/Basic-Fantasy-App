@@ -6,23 +6,7 @@
     android:layout_height="match_parent"
     tools:context="com.cis.basicfantasyapp.HomeActivity">
 
-    <TextView
-        android:id="@+id/ST_DR_Poison"
-        android:layout_width="144dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Death Ray or Poison"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.401" />
-
-    <EditText
+        <EditText
         android:id="@+id/CharacterName"
         android:layout_width="216dp"
         android:layout_height="42dp"
@@ -32,7 +16,9 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Character Name"
+        android:selectAllOnFocus="false"
+        android:text=" Character Name:"
+        android:background="@drawable/activity_home_border1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -49,12 +35,30 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:contentDescription="Class with Level"
+        android:background="@drawable/activity_home_border1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.964"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="98dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=" AC"
+        android:background="@drawable/activity_home_border2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124" />
 
     <TextView
         android:id="@+id/HitPoints"
@@ -64,7 +68,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="HP"
+        android:text=" HP"
+        android:background="@drawable/activity_home_border1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -80,7 +85,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="AB"
+        android:text=" AB"
+        android:background="@drawable/activity_home_border2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.969"
@@ -88,37 +94,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.124" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="98dp"
-        android:layout_height="84dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="AC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.03"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.124" />
 
     <TextView
-        android:id="@+id/ST_Paralysis_TtS"
-        android:layout_width="126dp"
-        android:layout_height="35dp"
+        android:id="@+id/SavingThrows"
+        android:layout_width="121dp"
+        android:layout_height="28dp"
+        android:text=" Saving Throws"
+        android:background="@drawable/saving_throws_border"
+        app:layout_constraintBottom_toTopOf="@+id/ST_DR_Poison"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HitPoints" />
+
+    <TextView
+        android:id="@+id/ST_DR_Poison"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Paralysis or Turn to Stone"
+        android:text="Death Ray or Poison"
+        android:background="@drawable/saving_throws_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
+        app:layout_constraintVertical_bias="0.401" />
 
     <TextView
         android:id="@+id/ST_MagicWands"
@@ -129,12 +133,32 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Magic Wands"
+        android:background="@drawable/saving_throws_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.385" />
+
+
+    <TextView
+        android:id="@+id/ST_Paralysis_TtS"
+        android:layout_width="126dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Paralysis or Turn to Stone"
+        android:background="@drawable/saving_throws_border"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
 
     <TextView
         android:id="@+id/ST_DragonBreath"
@@ -145,21 +169,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Dragon Breath"
+        android:background="@drawable/saving_throws_border"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
-
-    <TextView
-        android:id="@+id/SavingThrows"
-        android:layout_width="121dp"
-        android:layout_height="28dp"
-        android:text="Saving Throws"
-        app:layout_constraintBottom_toTopOf="@+id/ST_DR_Poison"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/HitPoints" />
 
 </android.support.constraint.ConstraintLayout>
