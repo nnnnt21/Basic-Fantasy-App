@@ -9,4 +9,7 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
     }
+    fun main(args :Array<String>) {
+        var characterName:String = readLine()!!
+    }
 }
